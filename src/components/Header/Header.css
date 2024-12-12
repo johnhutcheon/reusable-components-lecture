@@ -1,0 +1,12 @@
+#nav-header {
+  max-height: 120px;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 5px solid rgb(164, 161, 161);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.nav-link {
+  margin: 0.5em;
+  font-size: 1.25em;
+}

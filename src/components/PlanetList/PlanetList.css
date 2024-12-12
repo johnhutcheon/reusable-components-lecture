@@ -1,0 +1,10 @@
+#planet-list-wrapper{
+    max-height: 350px;
+    overflow: scroll;
+}
+
+#planet-card {
+    border: 2px solid rgb(205, 199, 199);
+    margin: 1em;
+    padding: 0.5em;
+}
