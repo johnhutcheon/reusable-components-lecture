@@ -16,7 +16,7 @@ export const RockPlanetsList = () => {
   }, []);
 
   return isLoading ? (
-    <div className="loading">
+    <section className="loading">
       <h2>Loading!</h2>
       <img
         src={loadingPlanet}
@@ -24,21 +24,21 @@ export const RockPlanetsList = () => {
         width="200px"
         className="loading-planet"
       />
-    </div>
+    </section>
   ) : (
-    <div id="planet-list-wrapper">
+    <section id="planet-list-wrapper">
       <ul id="planets-list">
         {rockPlanets.map((planet, i) => {
           return (
-            <div id="planet-card" key={i}>
+            <section id="planet-card" key={i}>
               <h3>Name: {planet.planet_name}</h3>
               <p>Moon Count: {planet.moon_count}</p>
               <p>Au From Sun: {planet.au_from_sun}</p>
               <p>Type: {planet.type}</p>
-            </div>
+            </section>
           );
         })}
       </ul>
-    </div>
+    </section>
   );
 };
